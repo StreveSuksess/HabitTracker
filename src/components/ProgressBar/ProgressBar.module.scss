@@ -1,0 +1,34 @@
+@import "../../assets/scss/vars";
+
+.container {
+  width: 100%;
+  border-radius: 4px;
+  background: $darkgrey;
+  height: 13px;
+  position: relative;
+}
+
+.line {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  transition: all .3s;
+
+  &.orange {
+    background: $orangegradient;
+  }
+
+  &.blue {
+    background: $bluegradient;
+  }
+
+  &.pink {
+    background: $pinkgradient;
+  }
+
+  &.yellow {
+    background: $yellowgradient;
+  }
+}

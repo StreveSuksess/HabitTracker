@@ -1,0 +1,106 @@
+@import '../../../assets/scss/vars';
+
+.shopTitle {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+
+.shopUl {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.shopCategory {
+  margin-bottom: 30px;
+}
+
+.gradient {
+  position: relative;
+  max-width: 300px;
+  background: $white;
+  border-radius: 10px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    padding: 10px 20px;
+  }
+}
+
+.colorCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  &.green {
+    background: $green;
+  }
+
+  &.blue {
+    background: $blue;
+  }
+
+  &.pink {
+    background: $pink;
+  }
+
+  &.yellow {
+    background: $yellow;
+  }
+}
+
+.gradientCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  &.orange {
+    background: $orangegradient;
+  }
+
+  &.blue {
+    background: $bluegradient;
+  }
+
+  &.pink {
+    background: $pinkgradient;
+  }
+
+  &.yellow {
+    background: $yellowgradient;
+  }
+}
+
+.coinImage {
+  img {
+    margin-left: -8px;
+    width: 25px;
+  }
+}
+
+.selectedItem {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba($grey, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .3s;
+
+  &:hover, &.show {
+    opacity: 1;
+  }
+}

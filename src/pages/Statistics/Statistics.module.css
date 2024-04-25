@@ -1,0 +1,35 @@
+.dayList {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  scrollbar-color: #FFEDDC rgb(251, 251, 251);
+  scrollbar-width: thin;
+}
+
+.dayList::-webkit-scrollbar {
+  border-radius: 10px;
+}
+
+.chooseStatisticButtons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.chooseStatisticButtons button {
+  background: rgb(251, 251, 251);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.chooseStatisticButtons button.active, .chooseStatisticButtons button:hover {
+  background: #000000;
+  color: rgb(251, 251, 251);
+}
+
+/*# sourceMappingURL=Statistics.module.css.map */

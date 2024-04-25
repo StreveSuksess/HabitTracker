@@ -1,0 +1,86 @@
+.habit {
+  position: relative;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.habit.active {
+  background: #EDFFF4;
+}
+.habit.active .title {
+  color: #37C871;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.checkbox input {
+  display: none;
+}
+.checkbox input + div {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(47, 47, 47);
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.checkbox input + div svg {
+  opacity: 0;
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+}
+.checkbox input:checked + div {
+  border-color: transparent;
+}
+.checkbox input:checked + div svg {
+  opacity: 1;
+}
+
+.actionsPopup {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 30px;
+  background: #ffffff;
+  box-shadow: 1px 1px 14px 6px rgba(200, 200, 200, 0.15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.actionsPopup button {
+  display: block;
+  padding: 6px 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #838383;
+  text-align: left;
+  transition: all 0.3s;
+}
+.actionsPopup button:hover {
+  color: #ffffff;
+  background: #838383;
+}
+.actionsPopup button:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.actionsPopup button:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+/*# sourceMappingURL=Habit.module.css.map */

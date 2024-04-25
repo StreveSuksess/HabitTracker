@@ -1,0 +1,83 @@
+#root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: rgb(237, 237, 237);
+  color: rgb(47, 47, 47);
+  font-family: Nunito, sans-serif;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+a, button, input {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1120px;
+  padding: 20px;
+  margin: 16px auto 200px;
+  height: 100%;
+  min-height: 90vh;
+}
+
+.green-gradient-text {
+  background: linear-gradient(71.57deg, rgb(55, 200, 113) 10.576%, rgb(95, 227, 148) 65.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.orange-gradient-text {
+  background: linear-gradient(64.2deg, rgb(255, 164, 80), rgb(255, 92, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.capitalise-text {
+  text-transform: capitalize;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.back-link svg {
+  rotate: 180deg;
+}
+.back-link span {
+  font-size: 18px;
+  color: #000000;
+}
+.back-link:hover {
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=index.css.map */

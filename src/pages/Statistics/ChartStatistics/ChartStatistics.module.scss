@@ -1,0 +1,53 @@
+@import '../../../assets/scss/vars';
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+    @media screen and (max-width: 768px) {
+      font-size: 15px;
+    }
+  }
+
+  button {
+    padding: 11px 20px;
+    border-radius: 4px;
+    background: $orangegradient;
+    color: $lightgrey;
+    font-size: 14px;
+    font-weight: 800;
+
+    &:disabled {
+      background: $grey;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 9px;
+      padding: 5px 5px;
+    }
+  }
+}
+
+.chartsUl {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  li {
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      @media screen and (max-width: 1110px) {
+        font-size: 30px;
+      }
+    }
+  }
+}

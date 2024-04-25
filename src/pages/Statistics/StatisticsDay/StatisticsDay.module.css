@@ -1,0 +1,38 @@
+.main {
+  padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DDDDDD;
+  transition: all 0.3s;
+  background: #ffffff;
+  min-width: 85px;
+}
+.main:hover, .main.active {
+  border: 1px solid #FFD9B6;
+  background: #FFEDDC;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dayNumber {
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+.monthNumber {
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+/*# sourceMappingURL=StatisticsDay.module.css.map */

@@ -1,0 +1,141 @@
+.goal {
+  position: relative;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: rgb(251, 251, 251);
+  transition: all 0.3s;
+}
+.goal.active {
+  background: #EDFFF4;
+}
+.goal.active .title {
+  color: #37C871;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.completedText {
+  margin-top: 7px;
+}
+
+.actionsPopup {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 30px;
+  background: #ffffff;
+  box-shadow: 1px 1px 14px 6px rgba(200, 200, 200, 0.15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.actionsPopup button {
+  display: block;
+  padding: 6px 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #838383;
+  text-align: left;
+  transition: all 0.3s;
+}
+.actionsPopup button:hover {
+  color: #ffffff;
+  background: #838383;
+}
+.actionsPopup button:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.actionsPopup button:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.buttonAndP {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addExecutionButton {
+  border-radius: 4px;
+  padding: 0 15px;
+  background: linear-gradient(71.57deg, rgb(55, 200, 113) 10.576%, rgb(95, 227, 148) 65.29%);
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.addExecutionButton:hover {
+  scale: 1.2;
+}
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+  position: fixed;
+  z-index: 10;
+  top: 300px;
+  left: 40%;
+  background: #ffffff;
+  padding: 15px;
+  width: 330px;
+  border-radius: 4px;
+}
+
+.popupTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid rgb(224, 224, 224);
+}
+.popupTitleContainer h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.inputAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.inputAndButton input {
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 10px;
+  max-width: 50%;
+  width: 100%;
+}
+.inputAndButton button {
+  width: 100%;
+  padding: 11px 0;
+  border-radius: 4px;
+  background: linear-gradient(64.2deg, rgb(255, 164, 80), rgb(255, 92, 0));
+  color: rgb(251, 251, 251);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=Goal.module.css.map */

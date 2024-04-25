@@ -1,0 +1,43 @@
+.navBar {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  box-shadow: 1px 1px 14px 6px rgba(200, 200, 200, 0.15);
+  background: #ffffff;
+  z-index: 10;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.links li {
+  width: 20%;
+  height: 100%;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link svg path {
+  stroke: #838383;
+}
+.link.active svg path {
+  stroke: url(#paint0_linear_3_317);
+}
+
+.libraryLink svg g {
+  fill: #838383;
+}
+.libraryLink.active svg g {
+  fill: url(#paint0_linear_3_317);
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

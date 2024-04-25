@@ -1,0 +1,63 @@
+.date {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.periodButtons {
+  overflow-x: scroll;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.periodButtons button {
+  background: rgb(251, 251, 251);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.periodButtons button.active, .periodButtons button:hover {
+  background: #000000;
+  color: rgb(251, 251, 251);
+}
+
+.addButton {
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  right: 40px;
+  bottom: 80px;
+  background: linear-gradient(71.57deg, rgb(55, 200, 113) 10.576%, rgb(95, 227, 148) 65.29%);
+  box-shadow: 0 4px 4px 0 rgba(55, 200, 113, 0.25);
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  padding-bottom: 2px;
+}
+.addButton span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.addButton:hover {
+  scale: 1.2;
+}
+@media screen and (min-width: 1110px) {
+  .addButton {
+    right: 45%;
+  }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

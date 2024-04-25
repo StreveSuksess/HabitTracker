@@ -1,0 +1,52 @@
+@import '../../../assets/scss/vars';
+
+.achievements {
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+}
+
+.group {
+  margin-bottom: 20px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.achievementUl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.achievement {
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  background: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all .3s;
+
+  svg {
+    width: 80px;
+  }
+
+  &.completed {
+    background: $green;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    width: 100px;
+    svg {
+      width: 40px;
+    }
+  }
+}

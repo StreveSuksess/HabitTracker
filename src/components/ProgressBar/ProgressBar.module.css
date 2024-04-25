@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  border-radius: 4px;
+  background: #E7E7E7;
+  height: 13px;
+  position: relative;
+}
+
+.line {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.line.orange {
+  background: linear-gradient(64.2deg, rgb(255, 164, 80), rgb(255, 92, 0));
+}
+.line.blue {
+  background: linear-gradient(64.2deg, #00E5FF, #1200FF);
+}
+.line.pink {
+  background: linear-gradient(64.2deg, #FFE53B, #FF005B);
+}
+.line.yellow {
+  background: linear-gradient(64.2deg, #FFE53B, #00FFFF);
+}
+
+/*# sourceMappingURL=ProgressBar.module.css.map */

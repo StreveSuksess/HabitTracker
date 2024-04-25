@@ -1,0 +1,50 @@
+.habitsLibrarySection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.habitsLibraryItem h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.habitsUl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.habit {
+  position: relative;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.habitText h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.habitText p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.addButton {
+  border-radius: 4px;
+  padding: 0 15px;
+  background: linear-gradient(71.57deg, rgb(55, 200, 113) 10.576%, rgb(95, 227, 148) 65.29%);
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.addButton:hover {
+  scale: 1.2;
+}
+
+/*# sourceMappingURL=HabitsLibrary.module.css.map */

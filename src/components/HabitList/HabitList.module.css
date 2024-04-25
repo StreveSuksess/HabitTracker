@@ -1,0 +1,36 @@
+.list {
+  margin-top: 22px;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 14px 6px rgba(200, 200, 200, 0.15);
+  background: #ffffff;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleContainer h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.titleContainer a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.emptyP {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=HabitList.module.css.map */

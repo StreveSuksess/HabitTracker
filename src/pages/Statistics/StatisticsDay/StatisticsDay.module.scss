@@ -1,0 +1,39 @@
+@import '../../../assets/scss/vars';
+
+.main {
+  padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $grey2;
+  transition: all .3s;
+  background: $white;
+  min-width: 85px;
+
+  &:hover, &.active {
+    border: 1px solid $orange;
+    background: $lightorange;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dayNumber {
+  font-size: 18px;
+  font-weight: 700;
+  transition: all .3s;
+  background: transparent;
+}
+
+.monthNumber {
+  font-size: 12px;
+  font-weight: 400;
+  transition: all .3s;
+  background: transparent;
+}

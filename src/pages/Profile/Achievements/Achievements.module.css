@@ -1,0 +1,48 @@
+.achievements h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+.group h2 {
+  margin-bottom: 10px;
+}
+
+.achievementUl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.achievement {
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.3s;
+}
+.achievement svg {
+  width: 80px;
+}
+.achievement.completed {
+  background: #37C871;
+}
+@media screen and (max-width: 768px) {
+  .achievement {
+    padding: 10px;
+    width: 100px;
+  }
+  .achievement svg {
+    width: 40px;
+  }
+}
+
+/*# sourceMappingURL=Achievements.module.css.map */

@@ -1,0 +1,92 @@
+.pageTitle {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.sceneSection h3 {
+  font-size: 22px;
+  font-weight: 800;
+}
+.sceneSection div div {
+  min-height: 70vh;
+}
+
+.levelAndCoinContainer {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.coinImg img {
+  height: 20px;
+  margin-left: -10px;
+}
+
+.levelContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.levelContainer h2 {
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.levelContainer span {
+  font-weight: 600;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+}
+.links a span {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.links a:hover {
+  scale: 1.1;
+}
+
+.coop {
+  margin-top: 20px;
+}
+.coop h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.coop form {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.coop form input {
+  background: #DDDDDD;
+  height: 30px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.coop form button {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background: linear-gradient(64.2deg, rgb(255, 164, 80), rgb(255, 92, 0));
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.coop form button:hover {
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=Profile.module.css.map */

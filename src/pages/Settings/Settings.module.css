@@ -1,0 +1,47 @@
+.settings h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.settings button {
+  padding: 5px;
+  border-radius: 4px;
+  background: linear-gradient(64.2deg, rgb(255, 164, 80), rgb(255, 92, 0));
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.settings button:hover {
+  scale: 1.1;
+}
+.settings label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.settings label input {
+  background: #DDDDDD;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.form {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fileLabel {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=Settings.module.css.map */

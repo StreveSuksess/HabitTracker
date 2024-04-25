@@ -1,0 +1,56 @@
+@import '../../assets/scss/vars';
+
+.habitsLibrarySection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.habitsLibraryItem {
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+.habitsUl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.habit {
+  position: relative;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: $lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.habitText {
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.addButton {
+  border-radius: 4px;
+  padding: 0 15px;
+  background: $greengradient;
+  font-size: 30px;
+  font-weight: 800;
+  color: $white;
+  transition: all .3s;
+
+  &:hover {
+    scale: 1.2;
+  }
+}
